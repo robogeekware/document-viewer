@@ -12,7 +12,7 @@ Supports the following formats:
 * EPUB
 * XPS (OpenXPS)
 * CBZ (Comic Books, no support for rar compressed CBR)
-* FictionBook (fb2, fb2.zip)
+* FictionBook (fb2)
 
 Collaboration with electronic publication sites and access to online ebook catalogs is allowed by the supported OPDS protocol.
 
@@ -28,7 +28,7 @@ We need your support to fix outstanding bugs, join development by forking the pr
 
 ## Building
 
-**NOTE: NDK r14b is unable to compile Document Viewer. For now, you need to use r13b. (See [#245](https://github.com/SufficientlySecure/document-viewer/issues/245))**
+**NOTE: NDK r14b fails to compile DV - use r15 or r13b. (See [#245](https://github.com/SufficientlySecure/document-viewer/issues/245))**
 
 ### Build with Gradle
 
@@ -59,7 +59,7 @@ I am using the newest [Android Studio](http://developer.android.com/sdk/installi
 
 ## Font Pack
 
-To save space in the main app, additional fonts can be installed using the [Document Viewer Fontpack](https://github.com/dschuermann/document-viewer-fontpack).
+The [Document Viewer Fontpack](https://github.com/PrivacyApps/document-viewer-fontpack) is no longer supported. Our MuPDF patches to support this no longer apply cleanly, so support for the font pack was dropped.
 
 # Licenses
 Document Viewer is licensed under the GPLv3+.  
@@ -87,11 +87,6 @@ along with Document Viewer.  If not, see <http://www.gnu.org/licenses/>.
 * Color Picker by Daniel Nilsson  
   http://code.google.com/p/color-picker-view/  
   Apache License v2
-
-* VDT-XML by XimpleWare  
-  http://vtd-xml.sourceforge.net/  
-  GPLv2+
-
 
 ## C Libraries
 
